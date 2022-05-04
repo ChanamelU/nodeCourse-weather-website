@@ -35,7 +35,7 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/help", (req, res) => {
-  res.render("Help", {
+  res.render("help", {
     title: "Help",
     name: "Chanamel Ungar",
     message: "If you're happy and you know it clap your hands",
